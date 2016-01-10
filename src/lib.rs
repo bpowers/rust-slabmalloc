@@ -11,11 +11,9 @@
 //!  * A `SlabPageProvider` is provided by the client and used by the
 //!    SlabAllocator to allocate SlabPages.
 //!
-#![feature(allocator)]
 #![allow(unused_features, dead_code, unused_variables)]
 #![feature(const_fn, prelude_import, test, no_std, core, raw, ptr_as_ref, core_prelude, core_slice_ext, libc)]
 #![no_std]
-#![allocator]
 
 #![crate_name = "slabmalloc"]
 #![crate_type = "lib"]
